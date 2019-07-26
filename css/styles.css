@@ -1,0 +1,84 @@
+.footer {
+  background-color: #437C90;
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+  .row-content {
+    margin: 0px auto;
+    padding: 0px 0px;
+    height: 350px;
+    overflow: hidden;
+    padding: 5px 5px;
+    background-color: #F4EBDD;
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 0px 0px;
+  background: #769FAE;
+  background-image: linear-gradient(#769FAE, #F4EBDD);
+  color: floralwhite;
+  height: 400px;
+  overflow: hidden;
+}
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
+}
+
+body {
+  padding: 0px 0px 0px 0px;
+  z-index: 0;
+  background-color: #444543;
+}
+
+div {
+  overflow: hidden;
+}
+
+.img-responsive {
+  height: 320px;
+  width: auto;
+}
+
+.secondrow {
+  background-color: #CCC2B7;
+}
+
+h1 {
+  font-size: 270%;
+}
+
+li {
+  list-style-type: square;
+}
+
+p, li {
+  font-size: 150%;
+}
+
+.btn {
+  background-color: #A98743;
+  border-color: #A98743;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  background-color: #6C562B;
+  border-color: #6C562B;
+}
+
+#world {
+  -webkit-animation: rotation 60s infinite linear;
+}
+
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
